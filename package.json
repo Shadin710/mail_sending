@@ -1,0 +1,23 @@
+{
+  "name": "node_mailer",
+  "version": "1.0.0",
+  "description": "It sends mail",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "shadin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.4.6",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
